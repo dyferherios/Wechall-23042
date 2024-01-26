@@ -1,3 +1,4 @@
+# WECHALL STD23042
  Pour commencer le challenge, il faut se connecter sur votre compte ssh: sssh -p 19198 user@warchaal.net
 Nous allons utiliser ces commande:
 cd       :changer la direction
@@ -5,14 +6,14 @@ ls -a    :affichier le contenu
 cat      :pour lire un fichier 
 chmod +r :pour avoir la permiission de lire
 
-level0
+## level0
 1-cd /home/level
 2-ls -a
 3-cd 00-welcom
 4-ls -a
 5-cat README.md
 
-Level1
+## Level1
 1-cd /home/level
 2-ls -a
 3-cd -choise tree
@@ -22,7 +23,7 @@ Level1
 7-cd grey
 8-cat solution.txt
 
-Level2
+## Level2
 1-cd /home/level
 2-ls -a
 3-cd 02
@@ -31,7 +32,7 @@ Level2
 6-ls -a
 7-cat solution
 
-Level4
+## Level4
 1-cd /home/user/username/level
 2-ls -a
 3-cd 04-kwisat
@@ -39,7 +40,7 @@ Level4
 5-chmod +r README.md
 6-cat README.md
 
-Level5
+## Level5
 1-cd /home/level
 2-ls -a
 3-cd 05-privacy
