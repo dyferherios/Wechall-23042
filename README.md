@@ -11,7 +11,7 @@ Nous allons utiliser ces commande:
 
 - **chmod +r**: pour avoir la permiission de lire
 
-## level0
+## Level 0
 ```bash
 cd /home/level
 ls -a
@@ -20,7 +20,7 @@ ls -a
 cat README.md
 ```
 
-## Level1
+## Level 1
 ```bash
 cd /home/level
 ls -a
@@ -32,7 +32,7 @@ cd grey
 cat solution.txt
 ```
 
-## Level2
+## Level 2
 ```bash
 cd /home/level
 ls -a
@@ -43,7 +43,7 @@ ls -a
 cat solution
 ```
 
-## Level4
+## Level 4
 ```bash
 cd /home/user/username/level
 ls -a
@@ -53,12 +53,15 @@ chmod +r README.md
 cat README.md
 ```
 
-## Level5
+## Level 5
 ```bash
 cd /home/level
 ls -a
-
-# Pytong
+cd 05-privacy
+ls -a
+cat README.md
+```
+## Pytong
 
 - **step1**: Create a file in our directory (ex: `uwu.txt`)
 
@@ -91,7 +94,7 @@ The end_time is optional
 ```
 That's it
 
-# Tryouts
+## Tryouts
 How ? : Quite easy, tryouts use `cat` command which the path is not specify, so we need just to create a fake cat command
 
 - **step1**: Here is an example of cat command ( put it in your home directory for example)
@@ -111,7 +114,3 @@ export PATH=$HOME:$PATH
 
 - **step5**: That's it, open new terminal and just use `cat` to read the file seed, and the solution will apear 
 
-cd 05-privacy
-ls -a
-cat README.md
-```
